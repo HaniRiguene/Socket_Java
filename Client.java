@@ -1,7 +1,7 @@
 package reseau2;
 import java.net.*;
 import java.io.*;
-import java.util.Scanner;
+import java.util.*;
 
 
 public class Client{ 
@@ -16,13 +16,11 @@ public class Client{
 		String str;
 
 		while (true) {
-			// YAB3AAAAAAAAAAAATH
 			Scanner myObj = new Scanner(System.in);
 			String userName = myObj.nextLine(); 
 			pr.println(userName);
 			pr.flush();
 			
-			// YE9BEEEEEEEEEEEELL
 			str = bf.readLine();
 			if (str!="") {
 				System.out.println(str); 
